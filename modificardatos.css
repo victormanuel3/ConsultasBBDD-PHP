@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    line-height: 1.25;
+	letter-spacing: 1px;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb47;
+    flex-direction: column;
+}
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+form {
+    background-color: white;
+    border: 1px solid #3f2b963d;
+    width: 382px;
+    height: 453px;
+}
+.form-modificar-plato {
+    width: 478px;
+    height: 274px;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input {
+    height: 36px;
+    width: 315px;
+    margin-top: 14px;
+    border: 3px solid #A8C0FF;
+    outline: none;
+    padding-left: 15px;
+}
+h1 {
+    font-weight: 570;
+    font-size: 25px;
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+select {
+    height: 36px;
+    width: 315px;
+    margin-top: 4px;
+    padding-left: 15px;
+    outline: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+    border: 3px solid #A8C0FF;
+}
+.fa-angle-down {
+    position: absolute;
+    pointer-events: none;
+    bottom: 9px;
+    right: 8px;
+}
+.contiene-select {
+    position: relative;
+    width: 315px;
+    margin-top: 14px;
+}
+input[type="submit"] {
+    width: 224px;
+    height: 43px;
+    padding: 0;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    font-weight: 550;
+    font-size: 17px;
+    margin-top: 22px;
+}
+form label:first-child input {
+    margin-top: 10px;
+}
+form label:nth-child(2) input {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+input[name="precio"] {
+    border-radius: 0;
+    border: none;
+    outline: none;
+    padding-left: 31px;
+    margin-top: 18px;
+}
+.contiene-input {
+    position: relative;
+}
+.contiene-input::before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #A8C0FF;
+    left: 0;
+    bottom: 0;
+}
+.fa-tag {
+    position: absolute;
+    bottom: 9px;
+    left: 5px;
+    color: #A8C0FF;
+}
+.h1-modificar-plato {
+    text-align: center;
+}
+.mensaje {
+    color: #3F2B96;
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 48px;
+    font-weight: 500;
+}

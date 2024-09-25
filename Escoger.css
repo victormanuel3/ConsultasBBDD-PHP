@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    line-height: 1.25;
+	letter-spacing: 1px;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb47;
+    flex-direction: column;
+}
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+form {
+    background-color: white;
+    border: 1px solid #3f2b963d;
+    width: 524px;
+    height: 157px;
+}
+.form-escoger-plato {
+    width: 600px;
+    height: 202px;
+    padding-top: 17px;
+}
+.form-borrar-cocinero, .form-modificar-cocinero {
+    height: 171px;
+    width: 557px;
+}
+.form-borrar-plato {
+    height: 171px;
+    width: 526px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+h1 {
+    font-weight: 570;
+    font-size: 28px;
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    color:transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+.titulo-escoger-plato  {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.titulo-escoger-plato > h1 {
+    font-size: 24px;
+}
+input[type="submit"] {
+    width: 162px;
+    height: 36px;
+    padding: 0;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    font-weight: 550;
+    font-size: 17px;
+    margin-left: 13px;
+}
+.contiene-select {
+    position: relative;
+    display: inline-block;
+}
+select {
+    height: 36px;
+    width: 315px;
+    padding-left: 15px;
+    outline: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+    border: 3px solid #A8C0FF;
+}
+.fa-angle-down {
+    position: absolute;
+    pointer-events: none;
+    bottom: 9px;
+    right: 8px;
+}
+.mensaje {
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 27px;
+}
+.mensaje-borrado {
+    font-size: 31px;
+    color: #3F2B96;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.titulo-borrar-cocinero, .titulo-borrar-plato, .titulo-modificar-cocinero {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.titulo-borrar-cocinero > h1, .titulo-borrar-plato > h1, .titulo-modificar-cocinero > h1 {
+    font-size: 24px;
+}
